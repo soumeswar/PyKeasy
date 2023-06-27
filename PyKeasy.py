@@ -136,7 +136,11 @@ try:
             file.write()
 except:
     print("Some Error Occurred.")
-
+try:
+    def documentation_of_PyKeasy():
+        webbrowser.open('https://pykeasy.readthedocs.io/en/latest/')
+except:
+    print("Error While Redirecting To The Site")
 #Finishing The Project
 if __name__ in '__main__':
     pass
